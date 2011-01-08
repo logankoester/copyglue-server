@@ -1,0 +1,58 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.0.3)
+    bacon (1.1.0)
+    bson (1.1.5)
+    c2dm (0.1.0)
+      httparty (> 0.6.0)
+    crack (0.1.8)
+    git (1.2.5)
+    httparty (0.6.1)
+      crack (= 0.1.8)
+    jeweler (1.5.2)
+      bundler (~> 1.0.0)
+      git (>= 1.2.5)
+      rake
+    jnunemaker-validatable (1.8.4)
+      activesupport (>= 2.3.4)
+    json (1.4.6)
+    mongo (1.1.5)
+      bson (>= 1.1.5)
+    mongo_mapper (0.8.6)
+      activesupport (>= 2.3.4)
+      jnunemaker-validatable (~> 1.8.4)
+      plucky (~> 0.3.6)
+    plucky (0.3.6)
+      mongo (~> 1.1)
+    pusher (0.7.0)
+      crack (~> 0.1.0)
+      json (~> 1.4.0)
+      ruby-hmac (~> 0.4.0)
+      signature (~> 0.1.2)
+    rack (1.2.1)
+    rake (0.8.7)
+    rcov (0.9.9)
+    ruby-hmac (0.4.0)
+    signature (0.1.2)
+      ruby-hmac
+    sinatra (1.1.2)
+      rack (~> 1.1)
+      tilt (~> 1.2)
+    sinatra-mongomapper (1.0.2)
+      mongo_mapper
+      sinatra
+    tilt (1.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bacon
+  bundler (~> 1.0.0)
+  c2dm (>= 0.1.0)
+  jeweler (~> 1.5.2)
+  pusher (>= 0.7.0)
+  rcov
+  sinatra (>= 1.1.2)
+  sinatra-mongomapper (>= 1.0.2)
