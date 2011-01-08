@@ -1,6 +1,16 @@
 = copyglue-server
 
-Description goes here.
+Sinatra server for copyglue, a simple tool to share one clipboard between several machines.
+
+You only need this component if you don't wish to use CopyGlue's default (hosted) server.
+
+== Running locally
+  export PUSHER_KEY= # Your key for Pusher (http://pusherapp.com)
+  export PUSHER_APP= # Your App Id for Pusher
+  export PUSHER_SECRET # Your Secret for Pusher
+  export MONGOMAPPER=mongomapper://USER:PASSWORD@HOST:PORT/DATABASE
+  export MONGO_LOG=STDOUT # ...or another logfile
+  shotgun config.ru # Remember to set the network interface with -o if other machines need to reach the server
 
 == Contributing to copyglue-server
  

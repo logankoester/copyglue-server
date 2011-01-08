@@ -15,7 +15,7 @@ Jeweler::Tasks.new do |gem|
   gem.name = "copyglue-server"
   gem.homepage = "http://github.com/logankoester/copyglue-server"
   gem.license = "MIT"
-  gem.summary = %Q{Sinatra server for copyglue, a simple tool to share one clipboard between different machines}
+  gem.summary = %Q{Sinatra server for copyglue, a simple tool to share one clipboard between several machines}
   gem.description = %Q{TODO: longer description of your gem}
   gem.email = "logan@logankoester.com"
   gem.authors = ["Logan Koester"]

@@ -3,6 +3,11 @@ source "http://rubygems.org"
 # Example:
 #   gem "activesupport", ">= 2.3.5"
 
+gem "c2dm", ">= 0.1.0"
+gem "pusher", ">= 0.7.0"
+gem "sinatra", ">= 1.1.2"
+gem "sinatra-mongomapper", ">= 1.0.2"
+
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 group :development do
