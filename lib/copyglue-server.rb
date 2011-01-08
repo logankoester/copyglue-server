@@ -83,7 +83,7 @@ class CopyGlueServer < Sinatra::Application
 
   get '/users/:api_key/clips' do
     if user = User.find_by_api_key(params[:api_key])
-      user.clips.all.to_json
+      user.clips.to_json
     else
       halt 404
     end
