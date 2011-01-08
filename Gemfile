@@ -7,6 +7,8 @@ gem "c2dm", ">= 0.1.0"
 gem "pusher", ">= 0.7.0"
 gem "sinatra", ">= 1.1.2"
 gem "sinatra-mongomapper", ">= 1.0.2"
+gem "bson_ext", ">= 1.1.5"
+gem "i18n", ">= 0.5.0"
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
